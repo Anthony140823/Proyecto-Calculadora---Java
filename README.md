@@ -95,7 +95,7 @@ La implementación utiliza características modernas del lenguaje como **Text Bl
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/TU-USUARIO/calculadora-java.git
+git clone https://github.com/Anthony140823/Proyecto-Calculadora---Java.git
 ```
 
 ### 2. Acceder al proyecto
