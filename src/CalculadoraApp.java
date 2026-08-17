@@ -75,8 +75,13 @@ public class CalculadoraApp {
                 System.out.println("Resultado Multiplicacion: " + resultado);
             }
             case 4 -> { // División
-                resultado = operando1 / operando2;
-                System.out.println("Resultado Division: " + resultado);
+                if(operando2 == 0){
+                    System.out.println("No es posible dividir entre zero!");
+                }
+                else {
+                    resultado = operando1 / operando2;
+                    System.out.println("Resultado Division: " + resultado);
+                }
             }
             default -> System.out.println("Opción erronea!: " + opcion);
         }
